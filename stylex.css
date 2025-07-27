@@ -1,0 +1,72 @@
+.custom-small-btn {
+  padding: 3px 0;
+  font-size: 10px;
+  height: 25px;
+  width: auto;
+  margin-top: 19px;
+}
+
+pre {
+  background-color: #0d1428;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.hljs {
+  background: #0d1428;
+  color: #dcdcdc;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+    #payment_info {
+    background-color: #0d1428;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#payment_info p {
+    margin: 5px 0;
+}
+
+#payment_info strong {
+    color: #00ff0a;
+}
+#preloader {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #070d19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.sidebar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+}
+.text-api {
+    margin-left: 5px;
+    color: #00d1ff;
+    text-shadow: 0 0 5px #00d1ff;
+}
+        
+.anime-character {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    animation: floatUpDown 2.5s ease-in-out infinite;
+}
+        
+@keyframes floatUpDown {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+}
